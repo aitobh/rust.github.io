@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculateur de Ressources - Rust</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculateur de Ressources pour les Rockets dans Rust</h1>
+        <div class="form-container">
+            <label for="rockets-number">Combien de rockets voulez-vous fabriquer ?</label>
+            <input type="number" id="rockets-number" min="1" placeholder="Entrez un nombre">
+            <button onclick="calculerRessources()">Calculer</button>
+        </div>
+        
+        <div class="result" id="result">
+            <!-- Les résultats seront affichés ici -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
